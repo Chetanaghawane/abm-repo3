@@ -15,7 +15,7 @@ public class App {
 			
 		
 		HelloWorld hw = (HelloWorld) ctx.getBean("hello");
-		System.out.println(hw.sayHello("Chetan Dattatraya Aghawane"));
+		System.out.println(hw.sayHello("Chetan"));
 		}
 	}
 

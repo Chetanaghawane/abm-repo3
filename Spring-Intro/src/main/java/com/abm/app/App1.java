@@ -25,7 +25,7 @@ public class App1 {
 		te.loadDocument("abc.txt");
 		
 		Atm h = (Atm) ctx.getBean("hdfc");
-		h.withdraw(111111, 20000);
+		h.withdraw(111111, 200);
 	}
 
 }
